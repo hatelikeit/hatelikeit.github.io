@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devansh Gupta - Horticulture Research</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #27ae60;
+            --background-color: #ecf0f1;
+            --text-color: #333;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: var(--secondary-color);
+            padding: 0.5rem 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            background-color: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: var(--secondary-color);
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 10px;
+        }
+        .contact-links {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .contact-links a {
+            color: var(--primary-color);
+            text-decoration: none;
+            margin: 10px;
+            display: inline-flex;
+            align-items: center;
+        }
+        .contact-links img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: var(--primary-color);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Devansh Gupta</h1>
+            <p>Graduate Student at Penn State University | Horticulture Enthusiast| PAU Alumnus|</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#background">Background</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a graduate student at Penn State University, specializing in horticulture and sustainable agriculture. My passion for plants and farming, rooted in my upbringing in Punjab, India, drives my academic and professional pursuits. I am dedicated to improving fruit cultivation techniques and enhancing crop productivity to address the challenges faced by farmers worldwide.</p>
+        </section>
+
+        <section id="background">
+            <h2>Academic Background</h2>
+            <p>My journey in horticulture began at Punjab Agricultural University, where I earned my degree and gained valuable hands-on experience in Horticulture science. Currently, I serve as a Graduate Research Assistant in the Tree Fruit Physiology Lab at Penn State University. Herein, I am focused on developing innovative methods for optimizing fruit production, including high-density planting and precision irrigation systems.</p>
+        </section>
+
+        <section id="research">
+            <h2>Research Focus</h2>
+            <p>My research is centered on creating sustainable solutions that not only increase yield but also improve fruit quality while conserving resources. I aim to integrate traditional knowledge with cutting-edge technology to advance horticultural practices. My goal is to support farmers globally in achieving higher productivity and sustainability in fruit farming, contributing to the broader field of agricultural science and food security.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <div class="contact-links">
+                <a href="mailto:fruitweeat@gmail.com">
+                    <img src="https://cdn-icons-png.flaticon.com/512/561/561188.png" alt="Email">
+                    devanshmahajan47@gmail.com
+                </a>
+                <a href="https://www.linkedin.com/in/devansh-gupta-77b45124b" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+                    LinkedIn Profile
+                </a>
+                <a href="https://twitter.com/devdgreat1" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter">
+                    @devdgreat1
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Devansh Gupta. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
